@@ -12,15 +12,27 @@
 
 训练前，请保证你拥有数据集，它们保持如下的目录结构（当然，你也可以自己定义目录结构，只是记得在代码里修改路径）
 GTZAN_processed/
+
 ├── split_80_20/
+
 │   ├── test/                # 存放测试集音频文件（WAV格式）
+
 │   └── train/               # 存放训练集音频文件（WAV格式）
+
 ├── test_index.csv           # 测试集索引（格式：file_path,label）
+
 ├── train_index.csv          # 训练集索引（格式：file_path,label）
+
 PreData.py              # 数据集构建脚本（生成索引文件/音频预处理）
+
 bestmodel.py            # 最终模型定义（CNN-BiRNN架构）
+
 train.py                # 实验训练代码（不保存模型，仅记录过程）
+
 train_save.py           # 正式训练代码（保存最佳模型参数）
+
 现成数据集下载地址：
+
 百度网盘链接：https://pan.baidu.com/s/1TixJaVoTiTya-uGbWKaZKA 
+
 提取码：2920 
