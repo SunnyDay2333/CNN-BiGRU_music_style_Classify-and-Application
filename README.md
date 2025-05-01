@@ -27,8 +27,37 @@ train_save.py           # 正式训练代码（保存最佳模型参数）
 
 
 
-现成数据集下载地址：
+现成数据集（GTZAN_processed）下载地址：
 
 百度网盘链接：https://pan.baidu.com/s/1TixJaVoTiTya-uGbWKaZKA 
 
 提取码：2920 
+
+## 新提交了GUI页面实现音乐预测与音乐推荐的功能，相关代码在GUI文件夹。
+
+如需使用，需要有GTZAN源文件，需要保证目录结构如下：
+
+```
+GTZAN/
+├── blues                
+├── classic
+├── country       
+├── disco
+├── hiphop
+├── jazz
+├── metal  
+├── pop 
+├── reggae
+├── rock
+best_model_final.pth    # 最佳模型
+getcsv.py               # 实际用不到
+GUI-predicted.py        # 预测GUI（可直接运行）
+GUI-recommend.py        # 推荐GUI（可直接运行）
+logo.png                # musimi uika desu!
+net.py                  # 神经网络模型定义
+paperPreDataset.py      # 构建数据集与数据处理
+predict_Algorithm.py    # 算法设计（实际用不到）
+
+```
+
+
