@@ -33,6 +33,8 @@ train_save.py           # 正式训练代码（保存最佳模型参数）
 
 提取码：2920 
 
+如有问题，作者E-mail：xl1946107707@gmail.com
+
 ## 新提交了GUI页面实现音乐预测与音乐推荐的功能，相关代码在GUI文件夹。
 
 如需使用，需要有GTZAN源文件，需要保证目录结构如下：
@@ -59,5 +61,10 @@ paperPreDataset.py      # 构建数据集与数据处理
 predict_Algorithm.py    # 算法设计（实际用不到）
 
 ```
+源GTZAN文件下载地址：
+
+百度网盘链接：https://pan.baidu.com/s/1bwqIY-wRGrTOVaqpAcE9mg 
+
+提取码：zrq1 
 
 
